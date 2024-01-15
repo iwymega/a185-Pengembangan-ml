@@ -142,7 +142,7 @@ public class TFLiteHelper {
 
     private TensorOperator getPostprocessNormalizeOp() {
         return new NormalizeOp(PROBABILITY_MEAN, PROBABILITY_STD);
-    }
+    } 
     // ----------------------------------------------------
 
 }
